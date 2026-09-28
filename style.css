@@ -11,8 +11,7 @@ main { background:#fff;
       max-width:900px; 
       margin: 2rem auto; 
       border-radius:30px; 
-      padding:1.5rem; 
-      box-sizing: border-box}
+      padding:1.5rem; }
 a { color: var(--blue); }
 /* === personalize below by changing colors or spacing === */
 /* example: make headings blue and a bit larger */
