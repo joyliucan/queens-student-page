@@ -2,7 +2,9 @@
   --red:#ccd1e8; --gold:#a7fcfa; --blue:#dea7fc;
 }
 body { font-family: courier new, monospace; 
-      margin:0; 
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
       background:linear-gradient(135deg, var(--blue) 0%, var(--red) 50%, var(--gold) 100%); 
       color:#fff; }
 header { background:var(--blue); color:#fff; padding:1rem; }
