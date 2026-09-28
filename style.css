@@ -7,8 +7,6 @@ body { font-family: courier new, monospace;
       color:#fff; }
 header { background:var(--blue); color:#fff; padding:1rem; }
 main { background:#fff; 
-      margin-left: auto;
-      margin-right: auto;
       color:#1a1a1a; 
       max-width:900px; 
       margin: 2rem auto; 
