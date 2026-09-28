@@ -12,7 +12,7 @@ main { background:#fff;
       color:#1a1a1a; 
       max-width:900px; 
       margin: 2rem 1rem; 
-      border-radius:12px; 
+      border-radius:30px; 
       padding:1.5rem; }
 a { color: var(--blue); }
 /* === personalize below by changing colors or spacing === */
