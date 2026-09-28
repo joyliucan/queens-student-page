@@ -1,5 +1,5 @@
 :root {
-  --red:#ccd1e8; --gold:#fabd0f; --blue:#dea7fc;
+  --red:#ccd1e8; --gold:#a7fcfa; --blue:#dea7fc;
 }
 body { font-family: courier new, monospace; 
       margin:0; 
