@@ -1,25 +1,87 @@
 :root {
   --red:#bcc7f7; --gold:#a7fcfa; --blue:#ca7af5;
 }
-body { font-family: courier new, monospace; 
-      background:linear-gradient(135deg, var(--blue) 0%, var(--red) 50%, var(--gold) 100%); 
-      color:#ccc; }
-header { background:var(--blue); 
-        width: 100%;
-        margin: 0rem 0rem 3rem;
-        padding: 1rem 1rem 1rem 1rem;
-        color:#fff; 
-        border-radius:15px}
-main { background:#fff; 
-  justify-content: center;
-      color:#1a1a1a; 
-      max-width: 90%; 
-      margin: auto auto 3rem auto; 
-      border-radius:30px; 
-      padding:2rem 2rem; }
-a { color: var(--blue); }
-/* === personalize below by changing colors or spacing === */
-/* example: make headings blue and a bit larger */
-h2 { color: var(--blue); font-size: 2rem; }
-/* example: make your photo round */
-img { border-radius: 30px; }
+body { font-family: 'Courier New', monospace; 
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--blue) 0%, var(--red) 50%, var(--gold) 100%); 
+  color: #ccc; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
+header { background: var(--blue); 
+  color: #fff; 
+  width: min(90%, 900px);
+  margin-top: 2rem;
+  padding: 1.5rem 2rem; 
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);}
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+/* Main Content Card */
+main { 
+  background: #ffffff; 
+  color: #1a1a1a; 
+  width: min(90%, 900px); 
+  margin: 2rem 0; 
+  padding: 2.5rem; 
+  border-radius: 30px; 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section:last-child {
+  margin-bottom: 0;
+}
+
+h2 { 
+  color: var(--blue); 
+  font-size: 1.8rem; 
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  border-bottom: 2px solid var(--red);
+  padding-bottom: 0.3rem;
+}
+
+p, li {
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+a { 
+  color: var(--blue); 
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.project-list {
+  list-style-type: square;
+  padding-left: 1.2rem;
+}
+
+.project-list li {
+  margin-bottom: 1.5rem;
+}
+
+.image-wrapper {
+  margin-top: 0.8rem;
+}
+
+img { 
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
