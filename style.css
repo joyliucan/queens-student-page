@@ -66,11 +66,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.project-list {
-  list-style-type: square;
-  padding-left: 1.2rem;
-}
-
 .project-list li {
   margin-bottom: 1.5rem;
 }
