@@ -15,7 +15,7 @@ main { background:#fff;
   align-items: center;
       color:#1a1a1a; 
       max-width: 90%; 
-      margin: auto auto 3rem auto; 
+      margin: auto auto 3rem 3rem; 
       border-radius:30px; 
       padding:2rem 1rem; }
 a { color: var(--blue); }
