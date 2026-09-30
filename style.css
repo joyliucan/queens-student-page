@@ -6,7 +6,7 @@ body { font-family: courier new, monospace;
       color:#ccc; }
 header { background:var(--blue); 
         width: 100%;
-        padding: 2.5rem 2rem;
+        padding: 1rem 1rem;
         color:#fff; 
         border-radius:15px}
 main { background:#fff; 
