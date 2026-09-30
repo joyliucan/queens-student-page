@@ -9,10 +9,12 @@ body { font-family: 'Courier New', monospace;
   color: #ccc; 
   display: flex;
   flex-direction: column;
-  align-items: center;}
+  align-items: center;
+     }
+
 header { background: var(--blue); 
   color: #fff; 
-  width: min(90%, 900px);
+  width: min(80%, 900px);
   margin-top: 2rem;
   padding: 1.5rem 2rem; 
   border-radius: 20px;
@@ -27,7 +29,7 @@ header h1 {
 main { 
   background: #ffffff; 
   color: #1a1a1a; 
-  width: min(90%, 900px); 
+  width: min(80%, 900px); 
   margin: 2rem 0; 
   padding: 2.5rem; 
   border-radius: 30px; 
