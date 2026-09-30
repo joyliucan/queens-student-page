@@ -6,7 +6,7 @@ body { font-family: courier new, monospace;
       color:#ccc; }
 header { background:var(--blue); 
         width: 100%;
-        margin: 0rem;
+        margin: 0rem 0rem 3rem;
         padding: 1rem 1rem;
         color:#fff; 
         border-radius:15px}
@@ -15,9 +15,9 @@ main { background:#fff;
   align-items: center;
       color:#1a1a1a; 
       max-width: 90%; 
-      margin: auto auto 3rem 3rem; 
+      margin: auto auto auto auto; 
       border-radius:30px; 
-      padding:2rem 1rem; }
+      padding:2rem 2rem; }
 a { color: var(--blue); }
 /* === personalize below by changing colors or spacing === */
 /* example: make headings blue and a bit larger */
