@@ -14,7 +14,7 @@ body { font-family: 'Courier New', monospace;
 
 header { background: var(--blue); 
   color: #fff; 
-  width: min(80%, 900px);
+  width: min(80%);
   margin-top: 2rem;
   padding: 1.5rem 2rem; 
   border-radius: 20px;
@@ -27,7 +27,7 @@ header h1 {
 main { 
   background: #ffffff; 
   color: #1a1a1a; 
-  width: min(80%, 900px); 
+  width: min(80%); 
   margin: 2rem 0; 
   padding: 2.5rem; 
   border-radius: 30px; ;
